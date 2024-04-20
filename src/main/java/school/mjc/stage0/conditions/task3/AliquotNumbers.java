@@ -5,7 +5,7 @@ public class AliquotNumbers {
         if (second == 0) {
             System.out.println("Cannot divide by zero!");
         }
-        if (first % second == 0) {
+        else if (first % second == 0) {
             System.out.println("Aliquot");
         } else {
             System.out.println("Not aliquot");
